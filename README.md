@@ -15,3 +15,4 @@ Este proyecto agrupa mi resolución de los trabajos prácticos (TPs) en Python d
 |[tp2](/TPs/tp2/)|Entrada/Salida| Abril-2022| :white_check_mark:|  
 |[tp3](/TPs/tp3/)|Condicional: if-elif-else| Abril-2022|:white_check_mark:| 
 |[tp4](/TPS/tp4/)|Repeticion: while|20-04-2022|         | 
+|[tp5](/TPS/tp5/)|Repeticion: for|21-04-2022|         | 

@@ -8,7 +8,10 @@ Este proyecto agrupa mi resolución de los trabajos prácticos (TPs) en Python d
 
 ## Estructura
 
-La carpeta TPs contiene una subcarpeta enumerada por cada trabajo práctico
+* TRABAJOS PRÁCTICOS / PROGRESO
 
-* [Trabajo Práctico 2](/TPs/tp2/)
-* [Trabajo Práctico 3](/TPs/tp3/)
+| Trabajo | Tema | Fecha | Listo |
+|--- |--- |--- |--- |
+|[tp2](/TPs/tp2/)|Entrada/Salida| Abril-2022| :white_check_mark:|  
+|[tp3](/TPs/tp3/)|Condicional: if-elif-else| Abril-2022|:white_check_mark:| 
+|[tp4](/TPS/tp4/)|Repeticion: while|20-04-2022|         | 

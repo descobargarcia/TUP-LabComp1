@@ -28,4 +28,4 @@ while (opcion !=5):
             print('\nERROR: no se puede dividir por cero')
             continue
         Resultado = num1/num2
-    print (f'{Resultado=}\n')
+    print (f'{Resultado = }\n')

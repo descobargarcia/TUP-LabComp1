@@ -7,11 +7,17 @@ subtotal = 0.0
 comprarMas = True
 while comprarMas:
     numProd += 1
-    precio = input(f'\nPrecio del producto {numProd}: ')
-    precio = float(precio)
+    while True: 
+        precio = input(f'\nPrecio del producto {numProd}: ')
+        precio = float(precio)
+        if precio > 0:
+            break
+        else:
+            print('Ingrese un precio valido!')
+            continue
     subtotal += precio
     while True: 
-        resp = input ('\n¿Desea comprar algo más? s/n: ')
+        resp = input ('¿Desea comprar algo más? s/n: ')
         if (resp != 's' and resp != 'n'):
             print ('Ingrese una opción válida')
             continue
@@ -24,7 +30,7 @@ total_IVA = subtotal*1.21
 
 print ('\n\n \t TICKET DE COMPRAS \t')
 print ('-------------------------------------')
-print (f'COMPRA: \t \t  {numProd} productos')
+print (f'COMPRA: \t \t {numProd} productos')
 print(f'SUBTOTAL: \t \t {subtotal:.2f} pesos')
 print('--------------------------------------')
 print(f'TOTAL + IVA: \t \t {total_IVA:.2f} pesos\n')

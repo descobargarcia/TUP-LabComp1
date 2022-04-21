@@ -1,6 +1,6 @@
 # PRÁCTICA 4: REPETICIÓN (PARTE I)
 
-### Para ver la resolución de cada ejercicio, haga click en el número respectivo
+Para ver la resolución de cada ejercicio, haga click en el número respectivo
 ---
 
 [[**1.**]](/trabajos/tp4/ContadorLetras.py) Implemente un programa que le pida al usuario palabras y le muestre la cantidad de letras de cada una. El programa se detendrá cuando el usuario ingrese la palabra “fin”. Ayuda: utilizar el método len(palabra) para saber el tamaño de una palabra.

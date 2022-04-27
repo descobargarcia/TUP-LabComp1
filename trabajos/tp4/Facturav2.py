@@ -1,6 +1,7 @@
-print ('\nFACTURADOR DE ALMACÉN -versión 2\n')
-print ('Para cada producto comprado, ingrese su precio en pesos') 
-print ('(valor numérico).') 
+print ("""
+FACTURADOR DE ALMACEN -version 2
+Para cada producto comprado, ingrese su precio en pesos 
+(valor numerico)""") 
 
 numProd = int(0)
 subtotal = 0.0
@@ -17,20 +18,22 @@ while comprarMas:
             continue
     subtotal += precio
     while True: 
-        resp = input ('¿Desea comprar algo más? s/n: ')
+        resp = input ('Desea comprar algo mas? s/n: ').lower()
         if (resp != 's' and resp != 'n'):
-            print ('Ingrese una opción válida')
+            print ('Ingrese una opcion valida')
             continue
         else:
+            comprarMas = True if (resp == 's') else False
             break
-    comprarMas = True if (resp == 's') else False
 
 # Se aplica el IVA sólo al final. Menor costo computacional
 total_IVA = subtotal*1.21
 
-print ('\n\n \t TICKET DE COMPRAS \t')
-print ('-------------------------------------')
-print (f'COMPRA: \t \t {numProd} productos')
-print(f'SUBTOTAL: \t \t {subtotal:.2f} pesos')
-print('--------------------------------------')
-print(f'TOTAL + IVA: \t \t {total_IVA:.2f} pesos\n')
+print (f"""
+\n \t TICKET DE COMPRAS \t
+-------------------------------------
+COMPRA: \t \t {numProd} productos
+SUBTOTAL: \t \t {subtotal:.2f} pesos
+--------------------------------------
+TOTAL + IVA: \t \t {total_IVA:.2f} pesos
+""")

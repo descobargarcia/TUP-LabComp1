@@ -1,32 +1,32 @@
-print('\nCALCULADORA ARITMETICA')
-print('Este programa simula una calculadora aritmética que trabaja')
-print('con dos números reales por operación')
-print ('\nMENÚ DE OPCIONES')
-print ('1: Suma')
-print ('2: Resta')
-print ('3: Multiplicar')
-print ('4: Dividir')
-print ('5: Salir')
-opcion = int(0)
-while (opcion !=5):
-    opcion = int(input('\nIngrese una opción válida: '))    
+print("""
+CALCULADORA ARITMETICA
+Este programa simula una calculadora aritmetica que trabaja
+con dos numeros reales por operacion
+    
+    MENU DE OPCIONES
+    1: Suma
+    2: Resta
+    3: Multiplicar
+    4: Dividir
+    5: Salir""")
+while True:
+    opcion = int(input('\nIngrese una opcion valida: '))    
     if (opcion <1 or opcion >5):
-        print('Opción inválida. Intente de nuevo')
+        print('Opcion invalida. Intente de nuevo')
         continue
     if (opcion == 5):
-        exit('¡FIN!')
+        exit('FIN!\n')
     num1 = float(input('Primer numero: '))
     num2 = float(input('Segundo numero: '))
     if opcion == 1:
-        Resultado = num1 + num2 
+        resultado = num1 + num2 
     elif opcion == 2:
-        Resultado = num1 - num2
+        resultado = num1 - num2
     elif opcion == 3:
-        Resultado = num1*num2
+        resultado = num1*num2
     else:
         if num2 == 0:
             print('\nERROR: no se puede dividir por cero')
             continue
-        Resultado = num1/num2
-    print (f'{Resultado = }')
-print()
+        resultado = num1/num2
+    print (f'{resultado = }')

@@ -1,6 +1,7 @@
-palabra = " "
-while (palabra != "FIN" and palabra != "Fin" and palabra !="fin"):
-    palabra = input("\nIngrese una palabra: ")
-    num_letras = len(palabra)
-    print(f'{num_letras = }')
-print (" ")
+while True:
+    palabra = input("\nIngrese una palabra: ").lower()
+    if palabra == "fin":
+        break        
+    numLetras = len(palabra)
+    print(f'{numLetras = }')
+print ()

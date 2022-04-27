@@ -4,7 +4,7 @@ while (intentos <=3):
     pass2 = input("\nConfirme su contraseña: ")
     if pass2 == pass1:
         exit ("\nACCESO CORRECTO")
-    print ("Contraseña inválida")
+    print ("Contraseña invalida")
     intentos += 1
 print ("\nACCESO DENEGADO")
 

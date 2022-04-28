@@ -1,20 +1,14 @@
-from random import uniform as ru
+from random import randint
 
 listaX = []
 listaY = []
-listaXred = []
-listaYred= []
 
 for iter in range(100):
-    x = ru (-5, 5)
+    x = randint (-5000, 5000)/1000
     y = 2*x**2 - 10
-    xRed = round (x, 2)
-    yRed = round (y, 2)
+    y = round (y,3)
     listaX.append(x)
     listaY.append(y)
-    listaXred.append(xRed)
-    listaYred.append(yRed)
 
-print(f'\n{listaXred= }\n')
-print(f'\n{listaYred= }\n')
-
+print(f'\n{listaX= }\n')
+print(f'\n{listaY= }\n')

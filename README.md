@@ -16,3 +16,4 @@ Este proyecto agrupa mi resolución de los trabajos prácticos (tp) en Python de
 |[tp3](/trabajos/tp3/)|Condicional: if-elif-else|06-04-2022|:white_check_mark:| 
 |[tp4](/trabajos/tp4/)|Repeticion: while|20-04-2022|:white_check_mark:| 
 |[tp5](/trabajos/tp5/)|Repeticion: for|21-04-2022|:white_check_mark:| 
+|[tp6](/trabajos/tp6/)|Listas|27-04-2022|:white_check_mark:| 

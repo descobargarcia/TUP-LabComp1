@@ -1,7 +1,3 @@
-#Generar una lista X de 100 números reales entre -5 y 5, seguidamente 
-# generar la lista Y con la función f(x) = 2X^2 - 10.
-# Ayuda: usar randint() para generar números aleatorios
-
 from random import uniform as ru
 
 listaX = []

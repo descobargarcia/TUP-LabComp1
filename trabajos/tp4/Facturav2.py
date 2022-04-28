@@ -19,11 +19,11 @@ while comprarMas:
     subtotal += precio
     while True: 
         resp = input ('Desea comprar algo mas? s/n: ').lower()
-        if (resp != 's' and resp != 'n'):
+        if resp not in ('s','n'):
             print ('Ingrese una opcion valida')
             continue
         else:
-            comprarMas = True if (resp == 's') else False
+            comprarMas = (resp == 's') # Booleano
             break
 
 # Se aplica el IVA sólo al final. Menor costo computacional

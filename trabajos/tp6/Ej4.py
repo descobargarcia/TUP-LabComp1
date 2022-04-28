@@ -3,10 +3,9 @@ B = [2,3,4,10,11,12]
 Intersec = []
 Restantes = []
 
-for elemA in A:
-    for elemB in B:
-        if elemA == elemB:
-            Intersec.append(elemA)
+for elem in A:
+    if elem in B:
+        Intersec.append(elem)
 
 for elem in A:
     if elem not in Intersec:
